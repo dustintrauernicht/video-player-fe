@@ -4,7 +4,22 @@
 .flex {
 	display: flex;
 }
+.text-align-c {
+	text-align: center;
+}
 iframe {
 	width: 100%;
 	height: 100%;
+}
+body {
+	form {
+		width: 50%;
+		margin: 0 auto;
+		padding: 50px;
+		margin-top: 150px;
+		input {
+			display: block;
+			margin: 0 auto;
+		}
+	}
 }
