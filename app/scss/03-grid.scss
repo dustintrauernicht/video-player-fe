@@ -1,5 +1,4 @@
 [class*='col-'] {
-margin-bottom: 20px;
 padding-right: 20px;
 }
 [class*='col-']:last-of-type{
@@ -53,6 +52,9 @@ width: 60%
 }
 .col-2-5 {
 width: 40%
+}
+.col-4-5 {
+	width: 80%;
 }
 .col-5-6 {
 width: 83.33%;

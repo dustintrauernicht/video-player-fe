@@ -1,9 +1,17 @@
+body {
+  font-family: 'Arial', sans-serif; }
 
-p {
-  color: red; }
+.site-container {
+  height: 100vh; }
+
+.flex {
+  display: flex; }
+
+iframe {
+  width: 100%;
+  height: 100%; }
 
 [class*='col-'] {
-  margin-bottom: 20px;
   padding-right: 20px; }
 
 [class*='col-']:last-of-type {
@@ -57,6 +65,9 @@ p {
 .col-2-5 {
   width: 40%; }
 
+.col-4-5 {
+  width: 80%; }
+
 .col-5-6 {
   width: 83.33%; }
 
@@ -93,6 +104,9 @@ p {
 .col-11-12 {
   width: 91.67%; }
 
+.site-container {
+  background-color: #141414; }
 
-p {
-  font-weight: bold; }
+.sidebar {
+  background-color: #f3f3f3; }
+
