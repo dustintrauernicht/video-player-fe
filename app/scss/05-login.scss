@@ -1,30 +1,84 @@
-body {
-	form {
-		width: 25%;
-		margin: 0 auto;
-		padding: 50px;
-		margin-top: 150px;
-		input {
-			display: block;
-			width: 300px;
-			height: 50px;
-			margin: 0 auto;
-			margin-bottom: 20px;
-			border-radius: 20px;
-			outline: none;
-			background-color: #f3f3f3;
-			border: 2px solid #141414;
-		}
-		button {
-			width: 300px;
-			border-radius: 20px;
-			border: 2px solid #de1212;
-			background-color: #f3f3f3;
-		}
-		button:hover {
-			color: white;
-			background-color: #de1212;
+$white: white;
+$transparent: transparent;
+$red: #de1212;
+$black: #141414;
+.login {
+	background: url(../thecrown.jpg) no-repeat;
+	max-width: 100%;
+	height: auto;
+	background-size: cover;
+	h1 {
+		margin-left: 50px;
+		span {
+			color: $red;
+			font-size: 2.2rem;
 		}
 	}
+}
+form {
+	width: 25%;
+	margin: 0 auto;
+	padding: 50px;
+	margin-top: 160px;
+	h2 {
+		color: $white;
+	}
+	input {
+		display: block;
+		width: 300px;
+		height: 50px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		border-radius: 20px;
+		outline: none;
+		background-color: $transparent;
+		border: 2px solid white;
+		color: $white;
+	}
+	input:focus {
+		background-color: $white;
+		color: $black;
+	}
+	input:hover{
+		cursor: pointer;
+	}
+	button {
+		width: 300px;
+		height: 50px;
+		border-radius: 20px;
+		border: 2px solid $red;
+		background-color: $transparent;
+		color: $white;
+		cursor: pointer;
+	}
+	button:hover {
+		color: $white;
+		background-color: $red;
+	}
+}
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $white;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: $white;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: $white;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: $white;
+}
+
+input:focus::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $black;
+}
+input:focus::-moz-placeholder { /* Firefox 19+ */
+  color: $black;
+}
+input:focus:-ms-input-placeholder { /* IE 10+ */
+  color: $black;
+}
+input:focus:-moz-placeholder { /* Firefox 18- */
+  color: $black;
 }
 
