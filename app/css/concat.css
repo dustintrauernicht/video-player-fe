@@ -1,6 +1,10 @@
 body {
   font-family: 'Arial', sans-serif; }
 
+.text {
+  position: absolute;
+  z-index: 1; }
+
 .site-container {
   height: 100vh; }
 
