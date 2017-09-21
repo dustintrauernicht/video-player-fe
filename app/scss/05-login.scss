@@ -1,0 +1,30 @@
+body {
+	form {
+		width: 25%;
+		margin: 0 auto;
+		padding: 50px;
+		margin-top: 150px;
+		input {
+			display: block;
+			width: 300px;
+			height: 50px;
+			margin: 0 auto;
+			margin-bottom: 20px;
+			border-radius: 20px;
+			outline: none;
+			background-color: #f3f3f3;
+			border: 2px solid #141414;
+		}
+		button {
+			width: 300px;
+			border-radius: 20px;
+			border: 2px solid #de1212;
+			background-color: #f3f3f3;
+		}
+		button:hover {
+			color: white;
+			background-color: #de1212;
+		}
+	}
+}
+
