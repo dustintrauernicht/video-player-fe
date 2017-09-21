@@ -1,9 +1,7 @@
 body {
   font-family: 'Arial', sans-serif; }
-
-.text {
-  position: absolute;
-  z-index: 1; }
+  body .text {
+    font-family: "Montserrat", sans-serif; }
 
 .site-container {
   height: 100vh; }
@@ -13,6 +11,9 @@ body {
 
 .text-align-c {
   text-align: center; }
+
+.align-c {
+  align-items: center; }
 
 [class*='col-'] {
   padding-right: 20px; }
@@ -202,6 +203,20 @@ input:focus:-moz-placeholder {
 
 .col-1-5 {
   padding: 20px; }
+
+.text {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  margin-left: 10%; }
+  .text h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 0; }
+  .text .fa {
+    margin-right: 8px; }
+  .text .rating h3 {
+    margin-left: 20px; }
 
 .youtube-player {
   position: relative;

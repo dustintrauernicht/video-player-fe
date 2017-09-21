@@ -1,9 +1,7 @@
 $monstserrat: 'Montserrat', sans-serif;
 body {
 	font-family: 'Arial', sans-serif;
-}
-
-.text {
-	position:absolute;
-	z-index: 1;
+	.text {
+	font-family: $monstserrat;
+	}
 }
