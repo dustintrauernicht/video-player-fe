@@ -18,6 +18,23 @@ body {
 .text-align-c {
   text-align: center; }
 
+ul {
+  list-style-type: none; }
+
+img {
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+  margin-right: 10%; }
+
+.profile {
+  margin-bottom: 60px; }
+
+.videos-container {
+  overflow: auto;
+  flex-direction: column;
+  height: 539px; }
+
 [class*='col-'] {
   padding-right: 20px; }
 
@@ -202,15 +219,17 @@ input:focus:-moz-placeholder {
 .sidebar {
   margin: 0 auto; }
   .sidebar h1 {
+    font-size: 2.5em;
     margin-left: 0; }
   .sidebar h5 {
     margin: 0 0 30px 0;
     font-weight: 400; }
-  .sidebar h5:first-child {
+  .sidebar h5:first-child, .sidebar h5:nth-child(2) {
     margin-right: 25px; }
 
 .col-1-5 {
-  padding: 20px; }
+  padding: 20px;
+  padding-bottom: 0px; }
 
 .text {
   position: absolute;

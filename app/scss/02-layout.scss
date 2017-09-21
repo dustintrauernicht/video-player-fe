@@ -13,3 +13,20 @@
 .text-align-c {
 	text-align: center;
 }
+ul{
+	list-style-type: none;
+}
+img {
+	border-radius: 50%;
+	height: 30%;
+	width: 30%;
+	margin-right: 10%
+}
+.profile {
+	margin-bottom: 60px
+}
+.videos-container {
+	overflow: auto;
+	flex-direction: column;
+	height: 539px;
+}

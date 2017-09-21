@@ -4,18 +4,20 @@ $red: #de1212;
 .sidebar {
 	margin: 0 auto;
 	h1 {
+		font-size: 2.5em;
 		margin-left: 0;
 	}
 	h5 {
 		margin: 0 0 30px 0;
 		font-weight: 400;
 	}
-	h5:first-child {
+	h5:first-child, h5:nth-child(2) {
 		margin-right: 25px;
 	}
 }
 .col-1-5 {
 	padding: 20px;
+	padding-bottom: 0px;
 }
 // Here is the start of the video-container css
 
