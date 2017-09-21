@@ -116,16 +116,17 @@ body {
 .login {
   background-color: #141414; }
 
+h1 {
+  margin-left: 50px; }
+  h1 span {
+    color: #de1212;
+    font-size: 2.2rem; }
+
 .login {
   background: url(../thecrown.jpg) no-repeat;
   max-width: 100%;
   height: auto;
   background-size: cover; }
-  .login h1 {
-    margin-left: 50px; }
-    .login h1 span {
-      color: #de1212;
-      font-size: 2.2rem; }
 
 form {
   width: 25%;
@@ -194,6 +195,13 @@ input:focus:-moz-placeholder {
   /* Firefox 18- */
   color: #141414; }
 
+.sidebar {
+  margin: 0 auto; }
+  .sidebar h1 {
+    margin-left: 0; }
+
+.col-1-5 {
+  padding: 20px; }
 
 .youtube-player {
   position: relative;
@@ -243,3 +251,4 @@ input:focus:-moz-placeholder {
   background: url("//i.imgur.com/TxzC70f.png") no-repeat;
   cursor: pointer;
   display: none; }
+

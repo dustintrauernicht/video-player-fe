@@ -2,18 +2,18 @@ $white: white;
 $transparent: transparent;
 $red: #de1212;
 $black: #141414;
-.login {
-	background: url(../thecrown.jpg) no-repeat;
-	max-width: 100%;
-	height: auto;
-	background-size: cover;
-	h1 {
+h1 {
 		margin-left: 50px;
 		span {
 			color: $red;
 			font-size: 2.2rem;
 		}
 	}
+.login {
+	background: url(../thecrown.jpg) no-repeat;
+	max-width: 100%;
+	height: auto;
+	background-size: cover;
 }
 form {
 	width: 25%;
