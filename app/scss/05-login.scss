@@ -12,11 +12,11 @@ h1 {
 .login {
 	background: url(../img/thecrown.jpg) no-repeat;
 	max-width: 100%;
-	height: auto;
+	height: 100vh;
 	background-size: cover;
 }
 form {
-	width: 25%;
+	min-width: 25%;
 	margin: 0 auto;
 	padding: 50px;
 	margin-top: 160px;
